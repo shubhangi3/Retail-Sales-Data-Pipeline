@@ -11,13 +11,13 @@
 Retail-Sales-Data-Pipeline/
 │
 ├── data/
-│ └── sales_data.csv # Sample dataset
-├── hdfs_upload.sh # Script to upload CSV to HDFS
+│   └── sales_data.csv              # Sample dataset
+├── hdfs_upload.sh                  # Script to upload CSV to HDFS
 ├── pyspark_scripts/
-│ ├── data_cleaning.py # Cleans raw sales data
-│ ├── data_transformation.py # Adds "total" column
-│ └── data_output.py # Writes result to HDFS
-└── README.md # Project documentation
+│   ├── data_cleaning.py            # Cleans raw sales data
+│   ├── data_transformation.py      # Adds "total" column
+│   └── data_output.py              # Writes result to HDFS
+└── README.md                       # Project documentation
 
 ## Dataset Columns
 - `id`
@@ -31,7 +31,7 @@ Retail-Sales-Data-Pipeline/
 
 ## Pipeline Steps
 
-1. **Upload CSV to HDFS**  
+1. **Upload CSV to HDFS**
    `hdfs dfs -put sales_data.csv /user/sales_data/`
 
 2. **Data Cleaning** (`data_cleaning.py`)  
