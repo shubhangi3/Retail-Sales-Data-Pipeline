@@ -47,10 +47,12 @@ Retail-Sales-Data-Pipeline/
 
 ## Sample Output
 
-```text
 id,customer_name,product,category,quantity,price,date,total
 101,John Doe,Laptop,Electronics,1,60000.0,2024-12-01,60000.0
-...
+102,Asha Rani,Headphones,Electronics,2,3000.0,2024-12-02,6000.0
+103,Rahul Mehta,T-Shirt,Apparel,3,500.0,2024-12-02,1500.0
+104,Jane Smith,Laptop,Electronics,1,62000.0,2024-12-03,62000.0
+105,Ram Kumar,Shoes,Apparel,2,1500.0,2024-12-03,3000.0
 
 
 ## How to run:--
