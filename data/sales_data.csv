@@ -1,0 +1,6 @@
+order_id,customer_name,product,category,quantity,price,order_date
+101,John Doe,Laptop,Electronics,1,60000,2024-12-01
+102,Asha Rani,Headphones,Electronics,2,3000,2024-12-02
+103,Rahul Mehta,T-Shirt,Apparel,3,500,2024-12-02
+104,Jane Smith,Laptop,Electronics,1,62000,2024-12-03
+105,Ram Kumar,Shoes,Apparel,2,1500,2024-12-03
